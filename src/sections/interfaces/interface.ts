@@ -12,3 +12,17 @@ export interface SingleAdvice {
     advice: string
   }
 }
+
+export interface User {
+  firstName: string
+  lastName: string
+  street: string
+  city: string
+  gender: string
+  email: string
+  jobTitle: string
+  latitude: number
+  longitude: number
+  favouriteColour: string
+  profileImage: string
+}
