@@ -4,4 +4,11 @@ export interface Art {
     artist: string
     imageURL: string
     publicationHistory: string[]
+}
+
+export interface SingleAdvice {
+  slip: {
+    id: string
+    advice: string
   }
+}
